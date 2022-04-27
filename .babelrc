@@ -1,0 +1,10 @@
+// Some default babel presets for code transforming
+// TODO: Briefly read about babel and reasons to use it. For example here https://babeljs.io/docs/en/
+{
+    "presets": [
+      "@babel/preset-env",
+      ["@babel/preset-react", { "runtime": "automatic" }],
+      "@babel/preset-typescript"
+    ]
+  }
+  
