@@ -1,6 +1,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
+//TODO: Check if everything is clear in common webpack config. 
+
 module.exports = {
   entry: path.resolve(__dirname, "..", "./src/index.js"),
   resolve: {
