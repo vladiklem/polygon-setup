@@ -1,9 +1,10 @@
 import React from "react";
+import { HelloWorld } from "../../components/HelloWorld/HelloWorld";
 
 const RootContainer = () => (
-    <div>
-        <h1>Hello world!</h1>
-    </div>
+  <div>
+    <HelloWorld />
+  </div>
 );
 
 export default RootContainer;
